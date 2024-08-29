@@ -35,6 +35,6 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [React.js]: https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB
-[Vite.js]: [https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)
+[Vite.js]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white
 [React-url]: https://reactjs.org/
 [Vite-url]: https://vitejs.dev/
