@@ -1,0 +1,67 @@
+.wrapper {
+  height: 30px;
+  /* width: 100%; */
+  background-color: #dfdfdf;
+  display: flex;
+  border-radius: 40px;
+  margin: 40px 0;
+  position: relative;
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: var(--progress);
+  height: 100%;
+  /* background-color: purple; */
+}
+
+.threshold {
+  position: relative;
+  flex-grow: 1;
+  --star:  url(./images/star.svg);
+}
+
+.thresholdPassed {
+  --star: url(./images/star-blue.svg);
+  /* background-color: blue; */
+}
+
+.threshold:last-child {
+  --star: url(./images/goblet.svg);
+}
+
+.thresholdPassed:last-child {
+  --star: url(./images/goblet-blue.svg);
+}
+
+.threshold::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-image: var(--star);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -20px;
+  right: -8px;
+}
+
+.threshold:not(:last-child) {
+  border-right: 1px solid grey;
+}
+
+.thresholdValue {
+  font-size: 12px;
+  line-height: 1;
+  position: absolute;
+  bottom: -1.5em;
+  right: -0.75em;
+  color: gray;
+}
