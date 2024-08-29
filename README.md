@@ -6,7 +6,7 @@
 ## О проекте
 Учебный проект програсс-бара на React + Vite.
 
-![image](https://github.com/user-attachments/assets/7ee82ed7-cff2-43af-9164-dcb8823b3506)
+![image](https://github.com/user-attachments/assets/721547b2-d51d-4c59-a6a6-0721bd1e0975)
 
 ## Функционал
 Действия при изменении индикатора:
